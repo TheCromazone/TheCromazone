@@ -1,8 +1,8 @@
 # Hi, I'm Matthew 👋
 
-I'm an MS Quantitative Economics grad (Cal Poly SLO '25; Reed College econ undergrad) based in San Francisco, building **agentic AI and data systems** as my main work right now. I'm looking for **data analyst, data scientist, or AI engineer** roles in the Bay Area. The two projects below are what I do when no one's watching — autonomous agents that read, reason, and act inside hard-coded safety boundaries.
+I'm an MS Quantitative Economics grad (Cal Poly SLO '25; Reed College econ undergrad) based in San Francisco, building **agentic AI and data systems** as my main work right now. I'm looking for **data analyst, data scientist, or AI engineer** roles in the Bay Area. The two projects below are some examples of what I've recently been working and iterating upon. Genral autonomous agents that read, reason, and act inside hard-coded safety boundaries.
 
-## What I'm building
+## What I'm building (as of right now)
 
 ### [Personal-JobPilot](https://github.com/TheCromazone/Personal-JobPilot) — Local autonomous job-search agent
 Scans Greenhouse / Lever / Ashby ATS APIs, scores every role with a local LLM against archetype-specific rubrics, tailors ATS-clean `.docx` resumes, and auto-applies through Playwright. FastAPI + SSE dashboard. 68 passing tests. Runs unattended on one laptop.
