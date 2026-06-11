@@ -1,8 +1,13 @@
 # Hi, I'm Matthew 👋
 
-I'm an MS Quantitative Economics grad (Cal Poly SLO '25; Reed College econ undergrad) based in San Francisco, building **agentic AI and data systems** as my main work right now. I'm looking for **data analyst, data scientist, or AI engineer** roles in the Bay Area. The two projects below are some examples of what I've recently been working and iterating upon. Genral autonomous agents that read, reason, and act inside hard-coded safety boundaries.
+I'm an MS Quantitative Economics grad (Cal Poly SLO '25; Reed College econ undergrad) based in San Francisco, building **agentic AI and data systems** as my main work right now. I'm looking for **data analyst, data scientist, or AI engineer** roles in the Bay Area. The projects below are some examples of what I've recently been working and iterating upon. General autonomous agents that read, reason, and act inside hard-coded safety boundaries.
 
 ## What I'm building (as of right now)
+
+### [forgetmenote-ios](https://github.com/TheCromazone/forgetmenote-ios) — Native iOS visual-memory app with hybrid AI vision 🌸
+Photograph rooms and shelves, then draw or freehand-trace nested sub-spaces directly on the photos — a recursive map of where your things live, searchable down to a single drawer. Object scanning runs on a two-tier vision pipeline: on-device Apple Vision segmentation fused with ML Kit (private, offline), with optional free-tier Gemini enhanced scans that auto-fall-back across the Flash model family when Google is overloaded. Full XCTest + Maestro E2E coverage, including a mocked-Gemini server that proves the cloud pipeline offline. iOS port of an open-source Android app, data-model compatible.
+
+**Stack:** Swift · SwiftUI · SwiftData · Apple Vision · ML Kit · Gemini API · Maestro · XcodeGen
 
 ### [Personal-JobPilot](https://github.com/TheCromazone/Personal-JobPilot) — Local autonomous job-search agent
 Scans Greenhouse / Lever / Ashby ATS APIs, scores every role with a local LLM against archetype-specific rubrics, tailors ATS-clean `.docx` resumes, and auto-applies through Playwright. FastAPI + SSE dashboard. 68 passing tests. Runs unattended on one laptop.
@@ -16,6 +21,7 @@ Runs Claude / GPT tool-use loops five times a week on Alpaca paper. Ingests news
 
 ## Stack
 
+![Swift](https://img.shields.io/badge/-Swift-F05138?style=flat-square&logo=swift&logoColor=white)
 ![Python](https://img.shields.io/badge/-Python-3776AB?style=flat-square&logo=python&logoColor=white)
 ![TypeScript](https://img.shields.io/badge/-TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white)
 ![FastAPI](https://img.shields.io/badge/-FastAPI-009688?style=flat-square&logo=fastapi&logoColor=white)
