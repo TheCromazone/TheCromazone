@@ -1,6 +1,6 @@
 # Hi, I'm Matthew 👋
 
-I'm an MS Quantitative Economics grad (Cal Poly SLO '25; Reed College econ undergrad) based in San Francisco, building **agentic AI and data systems** as my main work right now. I'm looking for **data analyst, data scientist, or AI engineer** roles in the Bay Area. The projects below are some examples of what I've recently been working and iterating upon. General autonomous agents that read, reason, and act inside hard-coded safety boundaries.
+I'm an MS Quantitative Economics grad (Cal Poly SLO '25; Reed College econ undergrad) based in San Francisco, building **agentic AI and data systems** as my main work right now. I'm looking for **data analyst, data scientist, or AI engineer** roles in the Bay Area. The projects below are some examples of what I've recently been working and iterating upon. 
 
 ## What I'm building (as of right now)
 
