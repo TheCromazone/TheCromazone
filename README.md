@@ -4,6 +4,11 @@ I'm an MS Quantitative Economics grad (Cal Poly SLO '25; Reed College econ under
 
 ## What I'm building (as of right now)
 
+### Real-estate listings site — freelance: legacy WordPress → headless rebuild & live migration 🏙️
+Ongoing client work for a San Francisco Compass real-estate agent (private repo — her photo and video assets stay off GitHub). The site *used to* run as a Nuxt frontend reading a JSON feed from a WordPress backend on aging GoDaddy shared hosting (PHP 5.6 / WP 5.0), with listings stored as ACF photo-repeater posts behind a ~2-minute cache bolted on to shield the fragile server. I've already migrated the frontend AWS → Vercel (static generate + deploy-hook publishing), and the next phase replaces the WordPress/PHP backend with a Postgres feed (Neon) so listings update on-click instead of on a timer. I also built a custom agentic CMS — a Next.js admin dashboard plus an LLM chatbot that edits the live site — so she can self-manage without touching code. Alongside the plumbing I keep shipping distinct frontend design concepts (30+ so far: cinematic, minimal black-and-white, Compass-style) and refining each against her feedback until she's satisfied.
+
+**Stack:** Nuxt · Vue · Vercel · WordPress → Postgres (Neon) · Next.js · Playwright · GSAP · AI media (Imagen / Veo)
+
 ### [forgetmenote-ios](https://github.com/TheCromazone/forgetmenote-ios) — Native iOS visual-memory app with hybrid AI vision 🌸
 Photograph rooms and shelves, then draw or freehand-trace nested sub-spaces directly on the photos — a recursive map of where your things live, searchable down to a single drawer. Object scanning runs on a two-tier vision pipeline: on-device Apple Vision segmentation fused with ML Kit (private, offline), with optional free-tier Gemini enhanced scans that auto-fall-back across the Flash model family when Google is overloaded. Full XCTest + Maestro E2E coverage, including a mocked-Gemini server that proves the cloud pipeline offline. iOS port of an open-source Android app, data-model compatible.
 
