@@ -14,6 +14,11 @@ Photograph rooms and shelves, then draw or freehand-trace nested sub-spaces dire
 
 **Stack:** Swift · SwiftUI · SwiftData · Apple Vision · ML Kit · Gemini API · Maestro · XcodeGen
 
+### [MatthewFlow](https://github.com/TheCromazone/MatthewFlow) — On-device hold-to-talk dictation for macOS 🎙️
+Hold a global hotkey (fn / Globe), speak, release — your words land cleaned-up in whatever app is focused. Fully on-device, Wispr Flow–style: Apple's `SpeechAnalyzer` transcribes and an on-device Foundation model strips filler ("um / uh"), fixes punctuation and capitalization, then pastes straight into the active app. No accounts, API keys, cloud, or per-use cost — audio and text never leave the Mac, so there's no network code in the dictation path. Built for fast agentic delegation: dictating prompts into Claude Code, Cursor, terminals, and chat, where typing is the bottleneck. Ships with a SwiftData-backed dashboard for history and stats.
+
+**Stack:** Swift · SwiftUI · SwiftData · SpeechAnalyzer · Foundation Models (on-device) · macOS 26 (Apple Silicon)
+
 ### [Personal-JobPilot](https://github.com/TheCromazone/Personal-JobPilot) — Local autonomous job-search agent
 Scans Greenhouse / Lever / Ashby ATS APIs, scores every role with a local LLM against archetype-specific rubrics, tailors ATS-clean `.docx` resumes, and auto-applies through Playwright. FastAPI + SSE dashboard. 68 passing tests. Runs unattended on one laptop.
 
