@@ -29,6 +29,11 @@ Runs Claude / GPT tool-use loops five times a week on Alpaca paper. Ingests news
 
 **Stack:** Python · FastAPI · Next.js · TypeScript · Anthropic + OpenAI · Alpaca · SQLAlchemy · Playwright
 
+### [chess3d](https://github.com/TheCromazone/chess3d) — 3D chess: play online, against the computer, or pass-and-play ♟️
+Full chess on a rendered 3D board (Three.js) with real rules and move validation via chess.js. Three ways to play: online multiplayer with a friend over a shared room server, a Web Worker AI opponent, or local pass-and-play — all tuned for both phones and desktop with touch controls. Built with a custom esbuild pipeline; the move-validation logic is a standalone module so the same engine drives the hosted online mode. [Play it live](https://chess3d-five.vercel.app/).
+
+**Stack:** JavaScript · Three.js · chess.js · Web Workers · esbuild · Vercel
+
 ## Stack
 
 ![Swift](https://img.shields.io/badge/-Swift-F05138?style=flat-square&logo=swift&logoColor=white)
